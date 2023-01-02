@@ -13,8 +13,7 @@
     window.onload = function(){
         var shuiying=document.getElementsByClassName("mask_div")
         for (var i=0;i<shuiying.length;i++){
-            shuiying[i].innerHTML=""
-            shuiying[i].style.color="#FFF"
+            shuiying[i].style.display="none"
         }
 }
 })();
